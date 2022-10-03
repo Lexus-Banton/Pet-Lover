@@ -30,6 +30,7 @@ export async function signOutUser() {
 /* Data functions */
 
 // > Part B: Export async function that
+export async function createPet() {}
 //      - inserts (creates) a supplied pet argument into supabase
 //      - returns a single data object (not an array)
 
