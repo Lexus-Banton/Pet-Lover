@@ -45,7 +45,6 @@ petForm.addEventListener('submit', async (e) => {
     // > Part B:
     //    - call function to create the pet in the database
     const reply = await createPet(pet);
-    console.log(reply);
     //    - store the error and pets state from the response
     error = reply.error;
     //    - either display the error or redirect the user to the home page

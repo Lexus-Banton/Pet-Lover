@@ -37,8 +37,11 @@ export async function createPet(pet) {
 }
 
 // > Part C: Export async function that
-//      - gets all pets from supabase
-//      - order the list by created date
+export async function getPet() {
+    //      - gets all pets from supabase
+    return await client.from('pets').select('*').order('created_at');
+    //      - order the list by created date
+}
 
 /* Storage Functions */
 
